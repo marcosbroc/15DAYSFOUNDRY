@@ -2,18 +2,18 @@
 pragma solidity ^0.8.13;
 
 contract Greeting {
-    string public greetingMessage;
+    string public greeting;
 
     function getGreeting(
         string memory _name
     ) public view returns (string memory) {
         if (bytes(_name).length > 0)
             // The way to concatenate strings in Solidity
-            return string(abi.encodePacked(greetingMessage, " ", _name));
-        else return greetingMessage;
+            return string(abi.encodePacked(greeting, " ", _name));
+        else return greeting;
     }
 
-    function setGreetingMessage(string memory _greetingMessage) public {
-        greetingMessage = _greetingMessage;
+    function setGreeting(string memory _greeting) public {
+        greeting = _greeting;
     }
 }
