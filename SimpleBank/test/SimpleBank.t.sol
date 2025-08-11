@@ -19,9 +19,15 @@ contract SimpleBankTest is Test {
     }
 
     function test_Withdraw() public {
-        uint64 amountToWithdraw = 100;
+        test_Deposit();
+        uint64 amountToWithdraw = 1;
         uint64 balance = bank.getBalance();
         bank.withdraw(amountToWithdraw);
         assertEq(bank.getBalance(), balance - amountToWithdraw);
+    }
+
+    function testFuzz_Transfer(address x, uint64 y) public {
+        vm.expectRevert(); // This should fail if the address is not valid or not enough balance
+        bank.transfer(x, y);
     }
 }
