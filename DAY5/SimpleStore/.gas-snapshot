@@ -1,0 +1,5 @@
+SimpleStoreGasTest:test_gas_addItem() (gas: 132728)
+SimpleStoreGasTest:test_gas_multiplePurchases() (gas: 236089)
+SimpleStoreSnapshotTest:test_snapshot_addItem() (gas: 123909)
+SimpleStoreSnapshotTest:test_snapshot_multipleItems() (gas: 314420)
+SimpleStoreSnapshotTest:test_snapshot_purchaseItem() (gas: 182712)
