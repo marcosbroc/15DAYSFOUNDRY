@@ -1,0 +1,6 @@
+[submodule "DAY7/ERC20Mintable/lib/forge-std"]
+	path = DAY7/ERC20Mintable/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "DAY7/ERC20Mintable/lib/openzeppelin-contracts"]
+	path = DAY7/ERC20Mintable/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
