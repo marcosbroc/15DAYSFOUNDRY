@@ -7,3 +7,9 @@
 [submodule "DAY8/Voting/lib/forge-std"]
 	path = DAY8/Voting/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "DAY9/NFT/lib/forge-std"]
+	path = DAY9/NFT/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "DAY9/NFT/lib/openzeppelin-contracts"]
+	path = DAY9/NFT/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
