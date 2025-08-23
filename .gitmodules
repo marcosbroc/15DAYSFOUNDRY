@@ -19,3 +19,6 @@
 [submodule "DAY10/AaveBorrow/lib/protocol-v3"]
 	path = DAY10/AaveBorrow/lib/protocol-v3
 	url = https://github.com/aave/protocol-v3
+[submodule "DAY11/SimpleBank/lib/forge-std"]
+	path = DAY11/SimpleBank/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
