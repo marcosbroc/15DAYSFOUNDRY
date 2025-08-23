@@ -13,3 +13,9 @@
 [submodule "DAY9/NFT/lib/openzeppelin-contracts"]
 	path = DAY9/NFT/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "DAY10/AaveBorrow/lib/forge-std"]
+	path = DAY10/AaveBorrow/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "DAY10/AaveBorrow/lib/protocol-v3"]
+	path = DAY10/AaveBorrow/lib/protocol-v3
+	url = https://github.com/aave/protocol-v3
