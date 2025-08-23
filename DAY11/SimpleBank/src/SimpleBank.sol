@@ -11,6 +11,7 @@ contract SimpleBank {
         totalDeposits += msg.value; // Total balance
     }
 
+    // Message
     function withdraw(uint256 _amount) public {
         require(_amount > 0, "Must withdraw something");
         require(balances[msg.sender] >= _amount, "Not enough balance!");
